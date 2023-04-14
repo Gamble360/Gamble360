@@ -20462,7 +20462,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.8",
-  "updatedAt": "2023-04-04T04:07:08.777Z",
+  "updatedAt": "2023-04-04T13:36:54.232Z",
   "devdoc": {
     "details": "With the select contract on line: 721 ... you can deploy automatically by deploying the selectVRF {} contract you may also deploy the contracts manually but have to chose the right one for each network in this case",
     "kind": "dev",

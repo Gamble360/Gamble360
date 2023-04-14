@@ -2,6 +2,8 @@
 
 pragma solidity >=0.8.2 <0.9.0;
 
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+
 error LowFunds(address adr, uint256 balance);
 error NotAdmin(address adr);
 error GameOver();
@@ -10,17 +12,17 @@ error Check(uint256 num);
 
 contract standards {
     address private admin;
-
+    ERC20[] public tokens;
+    uint toks;
     constructor() {
         admin = msg.sender;
     }
-
-    function withdraw() external {
-        if (msg.sender == admin) {
-            payable(admin).transfer(address(this).balance);
-        }
+    
+    function addToken(address _erc20) external {
+        if(admin != msg.sender) revert NotAdmin(msg.sender);
+        tokens[toks] = ERC20(_erc20);
+        toks++;
     }
-}
 
 contract ROCK_PAPER_SCISSORS is standards {
     event Log(uint256 cs, address from, uint256 time);

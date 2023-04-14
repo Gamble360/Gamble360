@@ -24484,12 +24484,12 @@
     "43113": {
       "events": {},
       "links": {},
-      "address": "0x5Af5A34b0B89b801D963FaAbC7007e5702654B6F",
-      "transactionHash": "0xf812cdba315fe76a3d76e571c6bf3655dbe03df421c04a06f31b10efeb8c847c"
+      "address": "0x0A15e44950080B37cA0c0fDD5C31A6d2813bf44E",
+      "transactionHash": "0x59d2eab866ae49ed2b887f0cdc53457eb2fc9c7859b44a5daf1b7f274438fe5a"
     }
   },
   "schemaVersion": "3.4.8",
-  "updatedAt": "2023-04-04T04:08:29.677Z",
+  "updatedAt": "2023-04-04T13:38:08.717Z",
   "networkType": "ethereum",
   "devdoc": {
     "details": "the s0xFactory creates the s0xial user friend and group interface and functions as central administration hub for all s0xial interactions",

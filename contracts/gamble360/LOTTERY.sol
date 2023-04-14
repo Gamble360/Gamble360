@@ -3,6 +3,7 @@
 pragma solidity >=0.8.2 <0.9.0;
 
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 error LowFunds(address adr, uint256 balance);
 error NotAdmin(address adr);
@@ -12,9 +13,16 @@ error Check(uint256 num);
 
 contract standards {
     address private admin;
-
+    ERC20[] public tokens;
+    uint toks;
     constructor() {
         admin = msg.sender;
+    }
+    
+    function addToken(address _erc20) external {
+        if(admin != msg.sender) revert NotAdmin(msg.sender);
+        tokens[toks] = ERC20(_erc20);
+        toks++;
     }
 
     function withdraw() external {
@@ -93,8 +101,8 @@ contract LOTTERY is ERC721, standards {
         rand += block.timestamp % _win;
     }
 
-    function _baseURI() internal view virtual override returns (string memory) {
-        return "./uri.json";
+    function _baseURI() internal pure override returns (string memory) {
+        return "ipfs://QmS15h8bKG6AEGTd7BbLnSXE4ndJSN48tKzW71HTrXeZ4T";
     }
 
     // 10000000000000000000

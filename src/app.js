@@ -218,7 +218,13 @@ const goBuyTicket = async (i) => {
 
   // when ticket bought add to my tickets
 };
-
+const doClaimTicket = (e) => {
+  console.log("lottery claim");
+  goClaimTicket();
+};
+const goClaimTicket = async () => {
+  console.log("lottery claim");
+};
 const setHistory = () => {
   console.log("history");
   getHistory();
@@ -237,6 +243,11 @@ const getHistory = async () => {
   const myTickets = [];
   for (let i = 0; i < myTicketCount; i++) {
     let grab = await LOTTERY.lotterys(i);
+    let results = [];
+    for (let y = 1; y <= Number(grab[5]._hex); y++) {
+      results[y] = await LOTTERY.results(i, y);
+      console.log(results[y]);
+    }
     myTickets[i] = {
       id: Number(grab[0]._hex),
       owner: grab[1],
@@ -248,6 +259,7 @@ const getHistory = async () => {
       timestamp: Number(grab[6]._hex),
       sold: Number(grab[7]._hex),
       status: Number(grab[8]._hex),
+      results: results,
     };
     // myHistory[h] = myTickets[i];
     console.log(myTickets[i]);
@@ -334,17 +346,22 @@ const writeLottery = (his) => {
   let len = his.length;
   lotteryList.innerHTML = "<h2 style='grid-column:1/-1;'>Lotteries </h2>";
   for (let i = 0; i < len; i++) {
+    let results = [];
+    for (let y = 1; y <= his[i].winning; y++) {
+      results[y] = his[i].results[y];
+      console.log(results[y]);
+    }
+    let status = his[i].status;
+    console.log(status, "status");
     lotteryList.innerHTML += `<div class="lotto">
           <div id="lottoID_${i}" name="${i}"><b>${his[i].type}::${his[i].id}/${his[i].timestamp}</b></div>
           <div id="lottoPRICE_${i}" name="${his[i].price}">Price : ${(his[i].price / 1e18).toFixed(2)}</div>
           <div id="lottoTotal_${i}">Total Tickets : ${his[i].tickets}</div>
           <div id="lottoMAX_${i}">Max Tickets/User : ${his[i].max}</div>
           <div id="lottoWIN_${i}">Winning Tickets : ${his[i].winning}</div>
-          <div id="lottoWIN_${i}">Lottery State : ${his[i].status > 0 ? his[i].status + " Tickets Left" : "Ticket #" + his[i].result + " won"}</div>
-          <div>
-          ${his[i].result == his[i].result ? '<input id="lottoAMOUNT_' + i + '" type="number" value="1" min="1" max="' + his[i].max + '" style="width:120px;" />' : null}
-          </div>
-          <button id="lottoBUY_${i}"  name="${i}">Buy Tickets</button>
+          <div id="lottoWIN_${i}">Lottery State : ${his[i].status > 0 ? his[i].status + " Tickets Left" : "Ticket #" + results + " won"}</div>
+          ${status != 0 ? '<input id="lottoAMOUNT_' + i + '" type="number" value="1" min="1" max="' + his[i].max + '" style="width:120px;" />' : ""}
+          ${status != 0 ? '<button id="lottoBUY_' + i + '}"  name="${i}">Buy Tickets</button>' : '<button id="lottoCLAIM_' + i + '}"  name="${i}">Claim Prize</button>'}
         </div>`;
     // 337 ::
     // if :: lottery result !0 >> if :: user address == ownerOf(constructed -> tokenID) >> only 4 winners :: create claim button
@@ -355,8 +372,10 @@ const writeLottery = (his) => {
   for (let i = 0; i < len; i++) {
     lottoAMOUNT[i] = document.getElementById(`lottoAMOUNT_${i}`);
     lottoBUY[i] = document.getElementById(`lottoBUY_${i}`);
+    lottoCLAIM[i] = document.getElementById(`lottoCLAIM_${i}`);
     // console.log(lottoID[i]);
     lottoBUY[i].addEventListener("click", doBuyTicket);
+    lottoCLAIM[i].addEventListener("click", doClaimTicket);
   }
 };
 

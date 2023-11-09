@@ -88,7 +88,7 @@ const s0xData = async () => {
 
   if (Number(network) === 43113) a = 0;
   if (Number(network) === 137) a = 1;
-  a = 0;
+  a = 1;
   const deploymentKey = await Object.keys(s0x.networks)[a];
   console.log(deploymentKey);
   return new ethers.Contract(s0x.networks[deploymentKey].address, s0x.abi, signer);
@@ -104,7 +104,7 @@ const HiLoData = async () => {
   if (Number(network) === 137) a = 1;
   if (Number(network) === 43113) a = 0;
   if (Number(network) === 137) a = 1;
-  a = 0;
+  a = 1;
   const deploymentKey = await Object.keys(HiLo.networks)[a];
   console.log(deploymentKey);
   return new ethers.Contract(HiLo.networks[deploymentKey].address, HiLo.abi, signer);
@@ -119,7 +119,7 @@ const RockPaperScissorsData = async () => {
   if (Number(network) === 137) a = 1;
   if (Number(network) === 43113) a = 0;
   if (Number(network) === 137) a = 1;
-  a = 0;
+  a = 1;
   const deploymentKey = await Object.keys(RockPaperScissors.networks)[a];
   console.log(deploymentKey);
   return new ethers.Contract(RockPaperScissors.networks[deploymentKey].address, RockPaperScissors.abi, signer);
@@ -134,7 +134,7 @@ const LotteryData = async () => {
   if (Number(network) === 137) a = 1;
   if (Number(network) === 43113) a = 0;
   if (Number(network) === 137) a = 1;
-  a = 0;
+  a = 1;
   const deploymentKey = await Object.keys(Lottery.networks)[a];
   console.log(deploymentKey);
   return new ethers.Contract(Lottery.networks[deploymentKey].address, Lottery.abi, signer);

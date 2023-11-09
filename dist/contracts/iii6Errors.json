@@ -127,7 +127,7 @@
       "type": "error"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"All_Slots_Taken\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Already_Listed\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Array_Length_Mismatch\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Event_Has_Ended\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Greenlist_Expired\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Insufficient_Amount\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Insufficient_Balance\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Insufficient_Funds\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Insufficient_MLQ\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Insufficient_Supply\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Invalid_Amount\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Invalid_Response\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Max_Tokens_Minted\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Min_Requirements_Not_Met\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Mint_In_Progress\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Mint_Is_Not_Yet_Live\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Not_Burnable\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Not_Friends\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Not_Friends_Rev\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Not_Greenlisted\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Not_Pausable\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Sold_Out\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Unauthorized\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"You_Are_Not_The_Holder\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"You_Need_To_Wait\",\"type\":\"error\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/iii6utils/Misc/Errors/iii6Errors.sol\":\"iii6Errors\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/iii6utils/Misc/Errors/iii6Errors.sol\":{\"keccak256\":\"0x0fa08b9d5f1d9bb38d328004067f1d68d2caad65fec8c90e5d14d8092ab19e91\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://dbb894b6899c0f54b5cf4649063cf4e0c139d7ee60b9860c95657021545db8bd\",\"dweb:/ipfs/QmQeC3k1TeeDELme3t8J2RDmXnm4mPCtuz29BY5JqfBgBQ\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.23+commit.f704f362\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"All_Slots_Taken\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Already_Listed\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Array_Length_Mismatch\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Event_Has_Ended\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Greenlist_Expired\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Insufficient_Amount\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Insufficient_Balance\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Insufficient_Funds\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Insufficient_MLQ\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Insufficient_Supply\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Invalid_Amount\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Invalid_Response\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Max_Tokens_Minted\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Min_Requirements_Not_Met\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Mint_In_Progress\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Mint_Is_Not_Yet_Live\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Not_Burnable\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Not_Friends\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Not_Friends_Rev\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Not_Greenlisted\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Not_Pausable\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Sold_Out\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Unauthorized\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"You_Are_Not_The_Holder\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"You_Need_To_Wait\",\"type\":\"error\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/iii6Utils/Misc/Errors/iii6Errors.sol\":\"iii6Errors\"},\"evmVersion\":\"shanghai\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/iii6Utils/Misc/Errors/iii6Errors.sol\":{\"keccak256\":\"0x0fa08b9d5f1d9bb38d328004067f1d68d2caad65fec8c90e5d14d8092ab19e91\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://dbb894b6899c0f54b5cf4649063cf4e0c139d7ee60b9860c95657021545db8bd\",\"dweb:/ipfs/QmQeC3k1TeeDELme3t8J2RDmXnm4mPCtuz29BY5JqfBgBQ\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "immutableReferences": {},
@@ -136,20 +136,20 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "// SPDX-License-Identifier: GPL-3.0\n// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //\n//\n//      MMWKd:..                                                                                    ..:dKWMM\n//      MKl.                                                                                            .lKW\n//      O'       ..''''''''''''.     .''''''.     .'''''.      .''''''''''''''.     .''''''''''''..       'O\n//      '     .ckKNNWNWWWWWWWWWk.   .xNWWNWNl    ,0WWWWW0,     lNWWWWWWWWWNWNk'    ;0NNNWWWWWWWWNNKkc.     '\n//           ,OWMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMMMMMMM0,    ;KMMMMMMMMMMMMMMMMWO,\n//          .kMMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMMMMMM0,    ;KMMMMMMMMMMMMMMMMMMMk.\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMMMMM0,    :KMMMMMMMMMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMMMM0,    :KMMMMMMMMMMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMMM0,    ;0NNWWMMMMMMMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMM0,     .'.',;lkNMMMMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMMK;              ,kWMMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMMX:    .:oxxdc'    .dWMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMWd.   ,OWMMMMMXl.   '0MMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMX;   .kMMMMMMMMK,   .xMMMMMMMMMMMM0'\n//          '0MMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMM0'   .OMMMMMMMMX;   .xMMMMMMMMMMMM0'\n//          .OMMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMK,    lNMMMMMMWx.   '0MMMMMMMMMMMMO.\n//           lNMMMMMMMMMMMMMMMMO.   .kMMMMMWl    ,KMMMMMK,     lWMMMWd.   .:x0KKKkc.   .dWMMMMMMMMMMMNl\n//      .    .c0WMMMMMMMMMMMMMMO.   .kMMMMMWo    ,KMMMMMK,     lWMMMMNd.     ....     .xNMMMMMMMMMMW0c.    .\n//      l      .,lddxxxxxxxxxxxc.    :xxxxxd,    .lxxxxxl.     ,dxxxxxd:.            .cdxxxxxxxxddl,.      l\n//      No.                                                                                              .oN\n//      MW0l'                                                                                          'l0WM\n//      MMMWKd;.                                                                                    .;dKWMMM\n//\n// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //\n//                                                                                                                                                                                  //\n//      @dev            ::              Aron Mauritala Ayuk                                                                                                                                          //\n//      @msg            ::              stereo@iii6.xyz                                                                                                                                   //\n//      @github         ::              @stereoIII6\n//      @twitter        ::              @stereoIII6                                                                                                                                              //\n//                                                                                                                                                                                  //\n// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //\n//                                                                                                                                                                                  //\n//      @dev            ::              Juan Xavier Valverde                                                                                                                                    //\n//      @msg            ::              juanxavier@iii6.xyz                                                                                                                               //\n//      @twitter        ::              @JuanXavier                                                                                                                                             //\n//      @github         ::              @JuanXavier                                                                                                                                             //\n//                                                                                                                                                                                  //                                                                                                                                                                                 //\n// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //\n//  *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   //\n// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //\n//                                                                                                                                                                                  //\n//      @company        ::              Fractio Holding                                                                                                                                                                       //\n//      @title          ::              iii6 Global Enums                                                                                                                           //\n//      @description    ::              Global Enum Library                                                                                                                           //\n//      @version        ::              0.0.1                                                                                                                                       //\n//      @purpose        ::              Enum Library                                                                                                          //\n//                                                                                                                                                                                  //\n//                                                                                                                                                                                  //\n//                                                                                                                                                                                  //\n//                                                                                                                                                                                  //\n//                                                                                                                                                                                  //\n// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //\n//  *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   //\n// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //\n\n/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////\n\n/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////\n\npragma solidity ^0.8.7;\n\nabstract contract iii6Errors {\n    error Already_Listed();\n    error All_Slots_Taken();\n    error Insufficient_Balance();\n    error Insufficient_MLQ();\n    error Insufficient_Funds();\n    error Insufficient_Amount();\n    error Invalid_Amount();\n    error Min_Requirements_Not_Met();\n    error Mint_Is_Not_Yet_Live();\n    error Mint_In_Progress();\n    error Max_Tokens_Minted();\n    error Greenlist_Expired();\n    error Insufficient_Supply();\n    error Not_Greenlisted();\n    error Sold_Out();\n    error Event_Has_Ended();\n    error Unauthorized();\n    error You_Need_To_Wait();\n    error You_Are_Not_The_Holder();\n    error Array_Length_Mismatch();\n    error Invalid_Response();\n    error Not_Burnable();\n    error Not_Pausable();\n    error Not_Friends();\n    error Not_Friends_Rev();\n}\n",
-  "sourcePath": "/Users/iii6/Documents/GitHub/Gamble360/contracts/iii6utils/Misc/Errors/iii6Errors.sol",
+  "sourcePath": "/Users/iii6/Documents/GitHub/Gamble360/contracts/iii6Utils/Misc/Errors/iii6Errors.sol",
   "ast": {
-    "absolutePath": "project:/contracts/iii6utils/Misc/Errors/iii6Errors.sol",
+    "absolutePath": "project:/contracts/iii6Utils/Misc/Errors/iii6Errors.sol",
     "exportedSymbols": {
       "iii6Errors": [
-        15327
+        10599
       ]
     },
-    "id": 15328,
+    "id": 10600,
     "license": "GPL-3.0",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 15276,
+        "id": 10548,
         "literals": [
           "solidity",
           "^",
@@ -157,7 +157,7 @@
           ".7"
         ],
         "nodeType": "PragmaDirective",
-        "src": "8629:23:61"
+        "src": "8629:23:46"
       },
       {
         "abstract": true,
@@ -166,405 +166,406 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 15327,
+        "id": 10599,
         "linearizedBaseContracts": [
-          15327
+          10599
         ],
         "name": "iii6Errors",
-        "nameLocation": "8672:10:61",
+        "nameLocation": "8672:10:46",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "errorSelector": "e08ca6b0",
-            "id": 15278,
+            "id": 10550,
             "name": "Already_Listed",
-            "nameLocation": "8695:14:61",
+            "nameLocation": "8695:14:46",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15277,
+              "id": 10549,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "8709:2:61"
+              "src": "8709:2:46"
             },
-            "src": "8689:23:61"
+            "src": "8689:23:46"
           },
           {
             "errorSelector": "ea5db9c5",
-            "id": 15280,
+            "id": 10552,
             "name": "All_Slots_Taken",
-            "nameLocation": "8723:15:61",
+            "nameLocation": "8723:15:46",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15279,
+              "id": 10551,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "8738:2:61"
+              "src": "8738:2:46"
             },
-            "src": "8717:24:61"
+            "src": "8717:24:46"
           },
           {
             "errorSelector": "efc60c14",
-            "id": 15282,
+            "id": 10554,
             "name": "Insufficient_Balance",
-            "nameLocation": "8752:20:61",
+            "nameLocation": "8752:20:46",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15281,
+              "id": 10553,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "8772:2:61"
+              "src": "8772:2:46"
             },
-            "src": "8746:29:61"
+            "src": "8746:29:46"
           },
           {
             "errorSelector": "d578678f",
-            "id": 15284,
+            "id": 10556,
             "name": "Insufficient_MLQ",
-            "nameLocation": "8786:16:61",
+            "nameLocation": "8786:16:46",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15283,
+              "id": 10555,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "8802:2:61"
+              "src": "8802:2:46"
             },
-            "src": "8780:25:61"
+            "src": "8780:25:46"
           },
           {
             "errorSelector": "9bb42d4b",
-            "id": 15286,
+            "id": 10558,
             "name": "Insufficient_Funds",
-            "nameLocation": "8816:18:61",
+            "nameLocation": "8816:18:46",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15285,
+              "id": 10557,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "8834:2:61"
+              "src": "8834:2:46"
             },
-            "src": "8810:27:61"
+            "src": "8810:27:46"
           },
           {
             "errorSelector": "99956c46",
-            "id": 15288,
+            "id": 10560,
             "name": "Insufficient_Amount",
-            "nameLocation": "8848:19:61",
+            "nameLocation": "8848:19:46",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15287,
+              "id": 10559,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "8867:2:61"
+              "src": "8867:2:46"
             },
-            "src": "8842:28:61"
+            "src": "8842:28:46"
           },
           {
             "errorSelector": "064a6c41",
-            "id": 15290,
+            "id": 10562,
             "name": "Invalid_Amount",
-            "nameLocation": "8881:14:61",
+            "nameLocation": "8881:14:46",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15289,
+              "id": 10561,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "8895:2:61"
+              "src": "8895:2:46"
             },
-            "src": "8875:23:61"
+            "src": "8875:23:46"
           },
           {
             "errorSelector": "3a5bc321",
-            "id": 15292,
+            "id": 10564,
             "name": "Min_Requirements_Not_Met",
-            "nameLocation": "8909:24:61",
+            "nameLocation": "8909:24:46",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15291,
+              "id": 10563,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "8933:2:61"
+              "src": "8933:2:46"
             },
-            "src": "8903:33:61"
+            "src": "8903:33:46"
           },
           {
             "errorSelector": "50c9ab5c",
-            "id": 15294,
+            "id": 10566,
             "name": "Mint_Is_Not_Yet_Live",
-            "nameLocation": "8947:20:61",
+            "nameLocation": "8947:20:46",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15293,
+              "id": 10565,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "8967:2:61"
+              "src": "8967:2:46"
             },
-            "src": "8941:29:61"
+            "src": "8941:29:46"
           },
           {
             "errorSelector": "4c17e010",
-            "id": 15296,
+            "id": 10568,
             "name": "Mint_In_Progress",
-            "nameLocation": "8981:16:61",
+            "nameLocation": "8981:16:46",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15295,
+              "id": 10567,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "8997:2:61"
+              "src": "8997:2:46"
             },
-            "src": "8975:25:61"
+            "src": "8975:25:46"
           },
           {
             "errorSelector": "673ed843",
-            "id": 15298,
+            "id": 10570,
             "name": "Max_Tokens_Minted",
-            "nameLocation": "9011:17:61",
+            "nameLocation": "9011:17:46",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15297,
+              "id": 10569,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "9028:2:61"
+              "src": "9028:2:46"
             },
-            "src": "9005:26:61"
+            "src": "9005:26:46"
           },
           {
             "errorSelector": "167bf703",
-            "id": 15300,
+            "id": 10572,
             "name": "Greenlist_Expired",
-            "nameLocation": "9042:17:61",
+            "nameLocation": "9042:17:46",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15299,
+              "id": 10571,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "9059:2:61"
+              "src": "9059:2:46"
             },
-            "src": "9036:26:61"
+            "src": "9036:26:46"
           },
           {
             "errorSelector": "1e6f0b54",
-            "id": 15302,
+            "id": 10574,
             "name": "Insufficient_Supply",
-            "nameLocation": "9073:19:61",
+            "nameLocation": "9073:19:46",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15301,
+              "id": 10573,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "9092:2:61"
+              "src": "9092:2:46"
             },
-            "src": "9067:28:61"
+            "src": "9067:28:46"
           },
           {
             "errorSelector": "684cf537",
-            "id": 15304,
+            "id": 10576,
             "name": "Not_Greenlisted",
-            "nameLocation": "9106:15:61",
+            "nameLocation": "9106:15:46",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15303,
+              "id": 10575,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "9121:2:61"
+              "src": "9121:2:46"
             },
-            "src": "9100:24:61"
+            "src": "9100:24:46"
           },
           {
             "errorSelector": "ada869a8",
-            "id": 15306,
+            "id": 10578,
             "name": "Sold_Out",
-            "nameLocation": "9135:8:61",
+            "nameLocation": "9135:8:46",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15305,
+              "id": 10577,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "9143:2:61"
+              "src": "9143:2:46"
             },
-            "src": "9129:17:61"
+            "src": "9129:17:46"
           },
           {
             "errorSelector": "018a9872",
-            "id": 15308,
+            "id": 10580,
             "name": "Event_Has_Ended",
-            "nameLocation": "9157:15:61",
+            "nameLocation": "9157:15:46",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15307,
+              "id": 10579,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "9172:2:61"
+              "src": "9172:2:46"
             },
-            "src": "9151:24:61"
+            "src": "9151:24:46"
           },
           {
             "errorSelector": "82b42900",
-            "id": 15310,
+            "id": 10582,
             "name": "Unauthorized",
-            "nameLocation": "9186:12:61",
+            "nameLocation": "9186:12:46",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15309,
+              "id": 10581,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "9198:2:61"
+              "src": "9198:2:46"
             },
-            "src": "9180:21:61"
+            "src": "9180:21:46"
           },
           {
             "errorSelector": "7cd5facc",
-            "id": 15312,
+            "id": 10584,
             "name": "You_Need_To_Wait",
-            "nameLocation": "9212:16:61",
+            "nameLocation": "9212:16:46",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15311,
+              "id": 10583,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "9228:2:61"
+              "src": "9228:2:46"
             },
-            "src": "9206:25:61"
+            "src": "9206:25:46"
           },
           {
             "errorSelector": "905340b2",
-            "id": 15314,
+            "id": 10586,
             "name": "You_Are_Not_The_Holder",
-            "nameLocation": "9242:22:61",
+            "nameLocation": "9242:22:46",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15313,
+              "id": 10585,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "9264:2:61"
+              "src": "9264:2:46"
             },
-            "src": "9236:31:61"
+            "src": "9236:31:46"
           },
           {
             "errorSelector": "eb688586",
-            "id": 15316,
+            "id": 10588,
             "name": "Array_Length_Mismatch",
-            "nameLocation": "9278:21:61",
+            "nameLocation": "9278:21:46",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15315,
+              "id": 10587,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "9299:2:61"
+              "src": "9299:2:46"
             },
-            "src": "9272:30:61"
+            "src": "9272:30:46"
           },
           {
             "errorSelector": "c1a21f4e",
-            "id": 15318,
+            "id": 10590,
             "name": "Invalid_Response",
-            "nameLocation": "9313:16:61",
+            "nameLocation": "9313:16:46",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15317,
+              "id": 10589,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "9329:2:61"
+              "src": "9329:2:46"
             },
-            "src": "9307:25:61"
+            "src": "9307:25:46"
           },
           {
             "errorSelector": "febe7e19",
-            "id": 15320,
+            "id": 10592,
             "name": "Not_Burnable",
-            "nameLocation": "9343:12:61",
+            "nameLocation": "9343:12:46",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15319,
+              "id": 10591,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "9355:2:61"
+              "src": "9355:2:46"
             },
-            "src": "9337:21:61"
+            "src": "9337:21:46"
           },
           {
             "errorSelector": "da61c0d8",
-            "id": 15322,
+            "id": 10594,
             "name": "Not_Pausable",
-            "nameLocation": "9369:12:61",
+            "nameLocation": "9369:12:46",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15321,
+              "id": 10593,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "9381:2:61"
+              "src": "9381:2:46"
             },
-            "src": "9363:21:61"
+            "src": "9363:21:46"
           },
           {
             "errorSelector": "cece67ff",
-            "id": 15324,
+            "id": 10596,
             "name": "Not_Friends",
-            "nameLocation": "9395:11:61",
+            "nameLocation": "9395:11:46",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15323,
+              "id": 10595,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "9406:2:61"
+              "src": "9406:2:46"
             },
-            "src": "9389:20:61"
+            "src": "9389:20:46"
           },
           {
             "errorSelector": "032ad0c1",
-            "id": 15326,
+            "id": 10598,
             "name": "Not_Friends_Rev",
-            "nameLocation": "9420:15:61",
+            "nameLocation": "9420:15:46",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15325,
+              "id": 10597,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "9435:2:61"
+              "src": "9435:2:46"
             },
-            "src": "9414:24:61"
+            "src": "9414:24:46"
           }
         ],
-        "scope": 15328,
-        "src": "8654:786:61",
+        "scope": 10600,
+        "src": "8654:786:46",
         "usedErrors": [
-          15278,
-          15280,
-          15282,
-          15284,
-          15286,
-          15288,
-          15290,
-          15292,
-          15294,
-          15296,
-          15298,
-          15300,
-          15302,
-          15304,
-          15306,
-          15308,
-          15310,
-          15312,
-          15314,
-          15316,
-          15318,
-          15320,
-          15322,
-          15324,
-          15326
-        ]
+          10550,
+          10552,
+          10554,
+          10556,
+          10558,
+          10560,
+          10562,
+          10564,
+          10566,
+          10568,
+          10570,
+          10572,
+          10574,
+          10576,
+          10578,
+          10580,
+          10582,
+          10584,
+          10586,
+          10588,
+          10590,
+          10592,
+          10594,
+          10596,
+          10598
+        ],
+        "usedEvents": []
       }
     ],
-    "src": "8629:812:61"
+    "src": "8629:812:46"
   },
   "compiler": {
     "name": "solc",
-    "version": "0.8.17+commit.8df45f5f.Emscripten.clang"
+    "version": "0.8.23+commit.f704f362.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.4.8",
-  "updatedAt": "2023-04-04T13:36:54.203Z",
+  "schemaVersion": "3.4.16",
+  "updatedAt": "2023-11-09T15:24:52.401Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

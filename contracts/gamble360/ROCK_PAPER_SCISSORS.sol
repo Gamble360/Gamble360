@@ -23,6 +23,7 @@ contract standards {
         tokens[toks] = ERC20(_erc20);
         toks++;
     }
+}
 
 contract ROCK_PAPER_SCISSORS is standards {
     event Log(uint256 cs, address from, uint256 time);

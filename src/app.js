@@ -88,6 +88,7 @@ const s0xData = async () => {
 
   if (Number(network) === 43113) a = 0;
   if (Number(network) === 137) a = 1;
+  a = 0;
   const deploymentKey = await Object.keys(s0x.networks)[a];
   console.log(deploymentKey);
   return new ethers.Contract(s0x.networks[deploymentKey].address, s0x.abi, signer);
@@ -103,6 +104,7 @@ const HiLoData = async () => {
   if (Number(network) === 137) a = 1;
   if (Number(network) === 43113) a = 0;
   if (Number(network) === 137) a = 1;
+  a = 0;
   const deploymentKey = await Object.keys(HiLo.networks)[a];
   console.log(deploymentKey);
   return new ethers.Contract(HiLo.networks[deploymentKey].address, HiLo.abi, signer);
@@ -117,6 +119,7 @@ const RockPaperScissorsData = async () => {
   if (Number(network) === 137) a = 1;
   if (Number(network) === 43113) a = 0;
   if (Number(network) === 137) a = 1;
+  a = 0;
   const deploymentKey = await Object.keys(RockPaperScissors.networks)[a];
   console.log(deploymentKey);
   return new ethers.Contract(RockPaperScissors.networks[deploymentKey].address, RockPaperScissors.abi, signer);
@@ -131,6 +134,7 @@ const LotteryData = async () => {
   if (Number(network) === 137) a = 1;
   if (Number(network) === 43113) a = 0;
   if (Number(network) === 137) a = 1;
+  a = 0;
   const deploymentKey = await Object.keys(Lottery.networks)[a];
   console.log(deploymentKey);
   return new ethers.Contract(Lottery.networks[deploymentKey].address, Lottery.abi, signer);
@@ -651,7 +655,7 @@ const onClickConnect = async () => {
     } else if (Number(network) === 1 || Number(network) === 4) {
       net.innerHTML = "<img src='https://cdn.worldvectorlogo.com/logos/ethereum-eth.svg' id='micro' />";
       // mnet.innerHTML = "<img src='https://cdn.worldvectorlogo.com/logos/ethereum-eth.svg' id='micro' /> ETH";
-    } else if (Number(network) === 43114 || Number(network) === 43113) {
+    } else if (Number(network) === 1313161554 || Number(network) === 1313161555) {
       net.innerHTML = "<img src='https://cdn.worldvectorlogo.com/logos/ethereum-eth.svg' id='micro' />";
       // mnet.innerHTML = "<img src='https://cdn.worldvectorlogo.com/logos/ethereum-eth.svg' id='micro' /> ETH";
     } else {

@@ -130,6 +130,25 @@ module.exports = {
       timeoutBlocks: 200,
       skipDryRun: true,
     },
+    aurora: {
+      provider: () => new HDWalletProvider(mnemonic, "https://mainnet.aurora.dev"),
+      network_id: 1313161554,
+      confirmations: 10,
+      timeoutBlocks: 900,
+      skipDryRun: true,
+      gas: 10000000,
+      from: process.env.ADMIN, // CHANGE THIS ADDRESS
+    },
+    taurora: {
+      provider: () => new HDWalletProvider(mnemonic, "https://testnet.aurora.dev"),
+      network_id: 1313161555,
+      // network_id: 0x4e454153,
+      confirmations: 10,
+      timeoutBlocks: 50,
+      skipDryRun: true,
+      gas: 10000000,
+      from: process.env.ADMIN, // CHANGE THIS ADDRESS
+    },
     fujix: {
       provider: function () {
         return new HDWalletProvider({ mnemonic: process.env.AVAX_MNEM, providerOrUrl: process.env.FUJI_URL, chainId: "0xa869" });
